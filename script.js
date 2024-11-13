@@ -7,11 +7,11 @@ function insert_Row() {
   
   // Create the first cell
   const newCell1 = document.createElement('td');
-  newCell1.textContent = 'New Cell1';
+  newCell1.textContent = 'New Cell1Row1 cell1';
   
   // Create the second cell
   const newCell2 = document.createElement('td');
-  newCell2.textContent = 'New Cell2';
+  newCell2.textContent = 'New Cell1Row1 cell1';
   
   // Append the cells to the new row
   newRow.appendChild(newCell1);
