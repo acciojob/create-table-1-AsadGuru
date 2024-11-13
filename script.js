@@ -1,6 +1,10 @@
 function insert_Row() {
-  // Select the table by its ID
   const table = document.getElementById('sampleTable');
+  
+  // Clear the table (remove all rows except for the header)
+  while (table.rows.length > 1) {
+    table.deleteRow(1);
+  }
 
   // Create a new row
   const newRow = document.createElement('tr');
