@@ -7,11 +7,11 @@ function insert_Row() {
   
   // Create the first cell
   const newCell1 = document.createElement('td');
-  newCell1.textContent = 'New Cell1Row1 cell1';
+  newCell1.textContent = 'New Cell1';  // Add text content for the first cell
   
   // Create the second cell
   const newCell2 = document.createElement('td');
-  newCell2.textContent = 'New Cell1Row1 cell1';
+  newCell2.textContent = 'New Cell2';  // Add text content for the second cell
   
   // Append the cells to the new row
   newRow.appendChild(newCell1);
@@ -20,4 +20,3 @@ function insert_Row() {
   // Insert the new row at the top of the table
   table.insertBefore(newRow, table.firstChild);
 }
-
